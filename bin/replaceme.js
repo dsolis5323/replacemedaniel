@@ -1,8 +1,5 @@
-//replaceme.js
-
-exports.replaceme = function(text, vala, valb){
-    function out(val){
-        return text.replace(vala,valb);
-    }
-    return out(vala,valb);
-};
+#!/usr/bin/env node
+var path = require('path');
+var fs = require('fs');
+var lib = path.join(path.dirname(fs.realpathSync(__filename)), '../lib');
+require(lib + '/main.js');
