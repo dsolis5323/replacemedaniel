@@ -11,5 +11,13 @@
   },
   "author": "daniel solis",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dsolis5323/replacemedaniel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dsolis5323/replacemedaniel/issues"
+  },
+  "homepage": "https://github.com/dsolis5323/replacemedaniel"
 }
